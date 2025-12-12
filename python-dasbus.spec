@@ -2,7 +2,7 @@
 
 Name:           python-%{srcname}
 Version:        1.7
-Release:        1
+Release:        2
 Summary:        DBus library in Python 3
 License:        LGPL-2.1-or-later
 URL:            https://pypi.python.org/pypi/dasbus
