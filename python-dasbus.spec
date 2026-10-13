@@ -10,15 +10,15 @@ Source0:        https://files.pythonhosted.org/packages/source/d/dasbus/dasbus-%
 Group:          Development/Libraries/Python
 BuildArch:      noarch
 
-BuildRequires:  python-devel
-BuildRequires:  python-setuptools
+BuildRequires:  pkgconfig(python3)
+BuildRequires:  python%{pyver}dist(setuptools)
 Requires:       python-gobject3
 
 
 %description
 Dasbus is a DBus library written in Python 3, based on
 GLib and inspired by pydbus. It is designed to be easy
-to use and extend.}
+to use and extend.
 
 %prep
 %autosetup -n %{srcname}-%{version}
